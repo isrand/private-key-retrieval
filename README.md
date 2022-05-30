@@ -80,6 +80,8 @@ const initVector = Buffer.from(password.substring(0,15));
 encryptStringWithSymmetricKey(chunk, symmetricKey, initVector);
 ```
 
+(Conversely, every chunk can be decrypted using the same method, and if you were to aggregate all of the decrypted chunks you'd get the original base64 string representing the private key).
+
 With this I obtained an array of encrypted chunks of the base64 encoded private key.
 Then, I have iterated over the password character by character. I have converted that character to ASCII, and placed the element of the encrypted chunks array at that index in the corresponding folder (inside of the wallet address folder). If a character repeats in the password, a chunk's name increases by 1.
 
