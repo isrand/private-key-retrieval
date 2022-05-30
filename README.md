@@ -37,6 +37,11 @@ The available characters for this password are
 let available = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&()_';
 ```
 
+One example password would be
+
+```
+^c)#WFz2nk$RqdDBMF#7Foqg9%qN^v8z
+```
 
 For each one of these characters, I obtained the ASCII code, like:
 
@@ -104,3 +109,4 @@ Using only the information you have at hand, can you
 * Reconstruct the private key and decrypt the message?
   * What's the message?
 * Get the password back?
+  * Is knowing the original password the ONLY way to fetch the private key?
