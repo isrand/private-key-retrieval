@@ -101,12 +101,26 @@ c -> 99
 99/0x1c1f56e6818bf4d80fe5 would contain "2", the contents of which are chunk 7
 ```
 
-So now the private key contents are split and contained within all the folders in the `contents` folder.
-The password is unknown, the private key is unknown.
+So now the private key contents are split and located within some subfolders of the `contents` folder. The password is unknown, the private key is unknown.
+
+Assuming you knew the password, the process to retrieve the private key would be (pseudocode):
+
+```
+final_string = ''
+
+for every character in password
+  folder_name = ascii(character)
+  chunk = get_chunk_at_folder(folder_name) --> assume this will return chunks sequentially if n(chunks) > 1
+  symmetricKey = Buffer.from(password);
+  initVector = Buffer.from(password.substring(0,15));
+  final_string += decrypt(chunk, symmetrickey, initvector);
+
+final_string = from_base64_to_utf8(final_string) --> success!!
+```
 
 ## Problem statement
 
-Using only the information you have at hand, can you
+Using only the information you have at hand (not knowing the password, not knowing anything about the order in which the private key chunks were distributed), can you
 
 * Reconstruct the private key and decrypt the message?
   * What's the message?
