@@ -127,7 +127,7 @@ Using only the information you have at hand (not knowing the password, not knowi
 * Get the password back?
   * Is knowing the original password the ONLY way to fetch the private key?
 
-Reminder: this is the encrypted message:
+Reminder: this is the encrypted message in base64 format:
 
 ```
 PJC2Vg/dQLOLEn2F+30Fqf47sdtkRtXow7CLHirDSNXdvCailI4m6IGPvDEjaNGEiY2vexJXIfwKtvblkKJhkcIrpqyrDYGHm2FWN2kAo7FFaX3f/ygPtTFO1tafNujHRJDp6ngu0k/xmpkCm9QW0XQYS+q6ILF3Y6thrz/vGlhGWYPrMzO9W2rCMUP/jHEAs5FFNOs/FLSkpkLQH/GtClx8b4agJDsSwErnzMPOH4xHkU+lNCtqLaDTWqdDNCFZDBpmXlPRBgaiptb8oEHDeh+o/Nn5V7+19ZqpQEzXT6q6lSzy/uWwXYUsX4LvAFNH4Wsbkk1uIstCasJOPm8lhg==
