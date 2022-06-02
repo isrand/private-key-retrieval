@@ -132,3 +132,5 @@ Reminder: this is the encrypted message in base64 format:
 ```
 PJC2Vg/dQLOLEn2F+30Fqf47sdtkRtXow7CLHirDSNXdvCailI4m6IGPvDEjaNGEiY2vexJXIfwKtvblkKJhkcIrpqyrDYGHm2FWN2kAo7FFaX3f/ygPtTFO1tafNujHRJDp6ngu0k/xmpkCm9QW0XQYS+q6ILF3Y6thrz/vGlhGWYPrMzO9W2rCMUP/jHEAs5FFNOs/FLSkpkLQH/GtClx8b4agJDsSwErnzMPOH4xHkU+lNCtqLaDTWqdDNCFZDBpmXlPRBgaiptb8oEHDeh+o/Nn5V7+19ZqpQEzXT6q6lSzy/uWwXYUsX4LvAFNH4Wsbkk1uIstCasJOPm8lhg==
 ```
+
+> NOTE: Answering *no* to either question is considered a valid answer. If my assumptions are correct, an answer like "it's impractical" or "ït would take too much time to try" is a valid answer to the problem.
